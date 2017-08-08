@@ -1,22 +1,158 @@
-.main{
-    border: solid 2px red;
-    background-color: azure;
-    padding: 100px;
+html, body {
+    min-height: 2300px;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color:  olor: red;
+body {
+    background: #737373;
+    
     
 }
 
-p {
-  color: blue;
+.main-header {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #eeeeee;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    
 }
 
-.tab {
-    text-align: center;
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+    
 }
 
-li {
-    color: brown;
+.container {
+    width: 880px;
+    padding: 0 10px;
+    margin: 0 auto;
+    
+    min-height: 70px;
+       
+}
+
+.index-logo {
+    height: 70px;
+    width: 140px;
+    float: left;
+    margin-right: 180px;
+    margin-bottom: 50px;
+        
+}
+
+.main-navigation {
+    float: left;
+    width: 430px;
+        
+    min-height: 70px;
+    background-color: chartreuse;
+    
+}
+
+.cart {
+    float: right;
+    width: 110px;
+    
+    min-height: 70px;
+    background-color: chartreuse;
+}
+
+.slider {
+    width: 880px;
+    min-height: 340px;
+    margin: 0 auto;
+    background-color: #eeeeee;
+        
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.feauteres {
+    margin-bottom: 80px;
+        
+}
+
+.feauteres-item {
+    width: 240px;
+    float: left;
+    margin-right: 80px;
+    
+    min-height: 300px;
+    background-color: darkorange;
+    
+}
+.feauteres-item:last-child {
+    margin-right: 0px;
+}
+
+.line {
+    width: 880px;
+    border-bottom: 3px solid #eeeeee;
+    margin-bottom: 60px;
+}
+
+.index-content-left {
+    width: 530px;
+    float: left;
+    background-color: cyan;
+      
+}
+
+.index-content-right {
+    width: 250px;
+    float: right;
+    background-color: cyan;
+}
+
+.index-content {
+    margin-bottom: 80px;
+}
+
+.brands {
+    margin-bottom: 60px;
+}
+.brands-logo {
+    width: 220px;
+    float: left;
+    margin-right: 110px;
+    background-color: cyan;
+}
+.brands-logo:last-child {
+    margin-right: 0px;
+}
+
+.maps-image {
+    width: 1200px;
+    min-height: 420px;
+}
+
+
+.main-footer {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.footer-social {
+    width: 240px;
+    float: left;
+    padding: 0 10px;
+}
+
+.footer-text {
+    width: 550px;
+    float: right;
+    padding: 0 10px;
 }
